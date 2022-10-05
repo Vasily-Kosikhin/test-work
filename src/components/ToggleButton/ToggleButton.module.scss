@@ -1,0 +1,43 @@
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 192px;
+  height: 20px;
+  background: #ffffff;
+  outline: 1px solid #3dbdf6;
+  border-radius: 10px;
+  user-select: none;
+
+  .toggle__option_text {
+    display: block;
+    margin-top: 2px;
+  }
+  .toggle__option {
+    cursor: pointer;
+    height: 18px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-family: 'ProximaNova-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3dbdf6;
+  }
+
+  .toggle__option_active {
+    height: 18px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 2px solid #3dbdf6;
+    border-radius: 10px;
+    font-family: 'ProximaNova-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    background-color: #3dbdf6;
+  }
+}

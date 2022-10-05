@@ -1,0 +1,76 @@
+%backgroundposition {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  width: 1029px;
+  height: 1894px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  position: relative;
+
+  .content__name {
+    min-width: 989px;
+    height: 67px;
+    margin-top: 20px;
+    background-image: url('../../assets/images/content/content-name.svg');
+    @extend%backgroundposition;
+  }
+
+  .searchContainer {
+    width: 232px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .searchContainer__title {
+      width: 58px;
+      height: 15px;
+      background-image: url('../../assets/images/content/search-title.svg');
+      @extend%backgroundposition;
+    }
+  }
+  .searchContainer_positon {
+    margin-top: 16px;
+    margin-left: 20px;
+  }
+
+  .cardBody {
+    width: 989px;
+    height: 1681px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  .cardBody_postion {
+    margin: 20px 0px 30px 20px;
+  }
+
+  .noCard {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #339ac8;
+    border-radius: 4px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    background-color: #e0f6fc;
+  }
+}

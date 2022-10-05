@@ -1,0 +1,86 @@
+%backgroundposition {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dropMenu {
+  width: 232px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #939da2;
+  border-radius: 4px;
+  position: relative;
+  background-color: white;
+
+  .dropMenu__text {
+    width: 178px;
+    height: 19px;
+    font-family: 'ProximaNova-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 16px;
+  }
+  .dropMenu__icon {
+    transition: 0.3s;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url('../../assets/images/content/search-drop-down-icon.svg');
+    @extend%backgroundposition;
+  }
+
+  .dropMenu__body {
+    transition: 0.3s;
+    position: absolute;
+    top: 38px;
+    flex-direction: column;
+    box-shadow: 0px 2px 10px #afbabf;
+    border-radius: 4px;
+    background-color: white;
+  }
+
+  .dropMenu__body_active {
+    background-color: #e3e9ec;
+  }
+
+  .dropMenu__option {
+    transition: 0.3s;
+    display: none;
+    align-items: center;
+    min-height: 40px;
+    max-height: 40px;
+    font-family: 'ProximaNova-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid white;
+    cursor: pointer;
+    &:hover {
+      background-color: #339ac8;
+    }
+  }
+}
+
+.dropMenu_show {
+  border: 2px solid #339ac8;
+  z-index: 1000;
+
+  .dropMenu__icon {
+    display: flex;
+    transition: 0.3s;
+    rotate: 180deg;
+  }
+  .dropMenu__option {
+    display: flex;
+  }
+}

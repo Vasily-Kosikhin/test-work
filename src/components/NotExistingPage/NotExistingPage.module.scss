@@ -1,0 +1,55 @@
+.content {
+  width: 1029px;
+  height: 1894px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  position: relative;
+}
+
+.noCard {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: 2px solid #339ac8;
+  border-radius: 4px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+  background-color: #e0f6fc;
+}
+
+.orderButton {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 167px;
+  height: 36px;
+  background: #3dbdf6;
+  border-radius: 2px;
+  border: 0px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0001), 0px 5px 5px rgba(0, 0, 0, 0.26);
+  &:hover {
+    background: #37ace0;
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}

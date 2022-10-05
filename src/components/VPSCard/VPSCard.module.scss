@@ -1,0 +1,199 @@
+%categoryicon {
+  width: 25px;
+  height: 25px;
+}
+
+%backgroundposition {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+%small-title-props {
+  margin-bottom: 8px;
+  font-family: 'ProximaNova-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #62686c;
+}
+
+%vps-block-default {
+  max-width: 232px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.VPSCard_nvme {
+  background-color: #e0f6fc;
+}
+.VPSCard_hdd {
+  background: #c4ebf8;
+}
+
+.VPSCard_turbo {
+  background: #ecfdf7;
+}
+
+.VPSCard {
+  width: 232px;
+  height: 547px;
+  border-radius: 4px;
+
+  .category {
+    height: 45px;
+    max-width: 232px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+
+    .category__name {
+      margin-left: 16px;
+      margin-bottom: 5px;
+      height: 15px;
+      font-family: 'ProximaNova-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .category__icon_ssd {
+      background-image: url('../../assets/images/vps-card/icons/ssd.svg');
+      @extend%categoryicon;
+      @extend%backgroundposition;
+    }
+    .category__icon_hdd {
+      background-image: url('../../assets/images/vps-card/icons/hdd.svg');
+      @extend%categoryicon;
+      @extend%backgroundposition;
+    }
+    .category__icon_turbo {
+      background-image: url('../../assets/images/vps-card/icons/turbo.svg');
+      @extend%categoryicon;
+      @extend%backgroundposition;
+    }
+  }
+
+  .price {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    height: 38px;
+    max-width: 232px;
+    font-family: 'ProximaNova-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .hardware {
+    height: 107px;
+    width: 232px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .hardware__item {
+      height: 19px;
+      max-width: 232px;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+
+      margin-top: 16px;
+    }
+
+    .hardware__name {
+      font-family: 'ProximaNova-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #62686c;
+    }
+
+    .hardware__parameters {
+      margin-left: 11px;
+      font-family: 'ProximaNova-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+  }
+  .distribution {
+    height: 79px;
+    @extend%vps-block-default;
+
+    .distribution__title {
+      @extend%small-title-props;
+    }
+  }
+  .software {
+    height: 82px;
+    @extend%vps-block-default;
+
+    .software__title {
+      @extend%small-title-props;
+    }
+  }
+  .dataCenter {
+    height: 66px;
+    @extend%vps-block-default;
+
+    .dataCenter__title {
+      @extend%small-title-props;
+    }
+  }
+
+  .bonusOffer {
+    height: 50px;
+    @extend%vps-block-default;
+
+    .bonusOffer__icon {
+      width: 161px;
+      height: 30px;
+      background-image: url('../../assets/images/vps-card/icons/bonus.svg');
+      @extend%backgroundposition;
+    }
+  }
+
+  .orderPart {
+    min-height: 80px;
+    max-width: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .orderButton {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 167px;
+    height: 36px;
+    background: #3dbdf6;
+    border-radius: 2px;
+    border: 0px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0001),
+      0px 5px 5px rgba(0, 0, 0, 0.26);
+    &:hover {
+      background: #37ace0;
+    }
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+}

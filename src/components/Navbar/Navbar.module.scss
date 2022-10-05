@@ -1,0 +1,41 @@
+%backgroundposition {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  width: 211px;
+  height: 1954px;
+  background-color: #062436;
+  display: flex;
+  flex-direction: column;
+
+  .navbar__header {
+    height: 58px;
+    padding-left: 20px;
+    padding-right: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      width: 112.8px;
+      height: 20.7px;
+      background-image: url('../../assets/images/logo-sweb/logo_sweb.svg');
+      @extend%backgroundposition;
+    }
+
+    .menu {
+      width: 20px;
+      height: 16px;
+      background-image: url('../../assets/images/icons/menu.svg');
+      @extend%backgroundposition;
+    }
+  }
+
+  .navbar__body {
+    padding-top: 21px;
+    height: 918px;
+  }
+}

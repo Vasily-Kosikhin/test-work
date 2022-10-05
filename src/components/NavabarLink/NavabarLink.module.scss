@@ -1,0 +1,110 @@
+%backgroundposition {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon {
+  min-width: 60px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link_padding {
+  margin-top: 9px;
+}
+.link_active {
+  background-color: #3dbdf6;
+  color: red;
+}
+
+.link {
+  width: 211px;
+  min-height: 40px;
+  display: flex;
+  text-decoration: none;
+  .link__text {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+  }
+
+  .icon__order {
+    width: 23px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/oreder-vps.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__account {
+    width: 21px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/account.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__server {
+    width: 21px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/server.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__monitoring {
+    width: 19.5px;
+    height: 19.5px;
+    background-image: url('../../assets/images/icons/monitoring.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__domains {
+    width: 22.05px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/domains.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__ssl {
+    width: 16.14px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/ssl.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__shop {
+    width: 22.76px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/shop.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__seo {
+    width: 21.8px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/seo_and_ad.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__support {
+    width: 24.1px;
+    height: 21px;
+    background-image: url('../../assets/images/icons/support.svg');
+    @extend%backgroundposition;
+  }
+
+  .icon__idea {
+    width: 19px;
+    height: 25px;
+    background-image: url('../../assets/images/icons/idea.svg');
+    @extend%backgroundposition;
+  }
+}
