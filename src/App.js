@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout></Layout>}>
+        <Route path={appPaths.order} element={<Layout></Layout>}>
           <Route index element={<ContentPage />} />
           <Route path="*" element={<NotExistingPage />} />
         </Route>
