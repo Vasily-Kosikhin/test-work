@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-work/static/css/main.d752c9c1.css",
-    "main.js": "/test-work/static/js/main.a66a5f26.js",
+    "main.js": "/test-work/static/js/main.991f7f6b.js",
     "static/media/app-links.svg": "/test-work/static/media/app-links.df1633226967066fca74.svg",
     "static/media/contact-phones.svg": "/test-work/static/media/contact-phones.becae171c92fe89b5e34.svg",
     "static/media/ProximaNova-Regular.woff2": "/test-work/static/media/ProximaNova-Regular.c4c3616c5577f9e7ef87.woff2",
@@ -30,10 +30,10 @@
     "static/media/search-drop-down-icon.svg": "/test-work/static/media/search-drop-down-icon.c385c7c89aecc17a91a0.svg",
     "static/media/menu.svg": "/test-work/static/media/menu.7ba81ddf369d235b9fd8.svg",
     "main.d752c9c1.css.map": "/test-work/static/css/main.d752c9c1.css.map",
-    "main.a66a5f26.js.map": "/test-work/static/js/main.a66a5f26.js.map"
+    "main.991f7f6b.js.map": "/test-work/static/js/main.991f7f6b.js.map"
   },
   "entrypoints": [
     "static/css/main.d752c9c1.css",
-    "static/js/main.a66a5f26.js"
+    "static/js/main.991f7f6b.js"
   ]
 }
