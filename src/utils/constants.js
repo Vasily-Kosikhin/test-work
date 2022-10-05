@@ -11,17 +11,18 @@ export const iconTypes = {
   idea: 'idea'
 };
 
+const ghPages = '/test-work';
 export const appPaths = {
-  order: '/',
-  account: '/account',
-  server: '/server',
-  monitoring: '/monitoring',
-  domains: '/domains',
-  ssl: '/ssl',
-  shop: '/shop',
-  seo: '/seo',
-  support: '/support',
-  idea: '/idea'
+  order: `${ghPages}/`,
+  account: `${ghPages}/account`,
+  server: `${ghPages}/server`,
+  monitoring: `/${ghPages}monitoring`,
+  domains: `${ghPages}/domains`,
+  ssl: `${ghPages}/ssl`,
+  shop: `${ghPages}/shop`,
+  seo: `${ghPages}/seo`,
+  support: `${ghPages}/support`,
+  idea: `${ghPages}/idea`
 };
 
 export const searchOptions = {
