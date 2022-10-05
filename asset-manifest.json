@@ -1,10 +1,39 @@
 {
   "files": {
-    "main.js": "/test-work/static/js/main.d910f4b3.js",
+    "main.css": "/test-work/static/css/main.d752c9c1.css",
+    "main.js": "/test-work/static/js/main.a66a5f26.js",
+    "static/media/app-links.svg": "/test-work/static/media/app-links.df1633226967066fca74.svg",
+    "static/media/contact-phones.svg": "/test-work/static/media/contact-phones.becae171c92fe89b5e34.svg",
+    "static/media/ProximaNova-Regular.woff2": "/test-work/static/media/ProximaNova-Regular.c4c3616c5577f9e7ef87.woff2",
+    "static/media/ProximaNova-Bold.woff2": "/test-work/static/media/ProximaNova-Bold.c84883dfcd4817e310df.woff2",
+    "static/media/ProximaNova-Extrabld.woff2": "/test-work/static/media/ProximaNova-Extrabld.51e73062e691a23fb801.woff2",
+    "static/media/license.svg": "/test-work/static/media/license.f0b0fd104180bfd54fb9.svg",
+    "static/media/bonus.svg": "/test-work/static/media/bonus.42fd327d8120a5f9870c.svg",
+    "static/media/logo_sweb.svg": "/test-work/static/media/logo_sweb.e6b93facef8ecd6ea524.svg",
+    "static/media/account-info.svg": "/test-work/static/media/account-info.aa66ac5fee9879d6ea48.svg",
+    "static/media/ssd.svg": "/test-work/static/media/ssd.7070dbbb5385344ff004.svg",
+    "static/media/content-name.svg": "/test-work/static/media/content-name.092f17ade9b1f7628f50.svg",
+    "static/media/search-title.svg": "/test-work/static/media/search-title.5aa35fe1e8ac8ce12b88.svg",
+    "static/media/server.svg": "/test-work/static/media/server.c3def964010b09b4658b.svg",
+    "static/media/oreder-vps.svg": "/test-work/static/media/oreder-vps.89f4e6ea6a832578450f.svg",
+    "static/media/hdd.svg": "/test-work/static/media/hdd.a7e0de666daf5f9529d2.svg",
+    "static/media/idea.svg": "/test-work/static/media/idea.c3678f1457680a74de5c.svg",
+    "static/media/shop.svg": "/test-work/static/media/shop.92886153dd419917c843.svg",
+    "static/media/seo_and_ad.svg": "/test-work/static/media/seo_and_ad.b1527cb97a38ad5f32d6.svg",
+    "static/media/domains.svg": "/test-work/static/media/domains.bdb4004fc6645aab2ee4.svg",
+    "static/media/account.svg": "/test-work/static/media/account.9d0d59754ef21fa2cf31.svg",
+    "static/media/ssl.svg": "/test-work/static/media/ssl.47eaad35191c05687204.svg",
+    "static/media/support.svg": "/test-work/static/media/support.3cc29b9a911341249856.svg",
+    "static/media/monitoring.svg": "/test-work/static/media/monitoring.87620af65a91f169dc11.svg",
+    "static/media/turbo.svg": "/test-work/static/media/turbo.f5a34f46d6c50218946a.svg",
     "index.html": "/test-work/index.html",
-    "main.d910f4b3.js.map": "/test-work/static/js/main.d910f4b3.js.map"
+    "static/media/search-drop-down-icon.svg": "/test-work/static/media/search-drop-down-icon.c385c7c89aecc17a91a0.svg",
+    "static/media/menu.svg": "/test-work/static/media/menu.7ba81ddf369d235b9fd8.svg",
+    "main.d752c9c1.css.map": "/test-work/static/css/main.d752c9c1.css.map",
+    "main.a66a5f26.js.map": "/test-work/static/js/main.a66a5f26.js.map"
   },
   "entrypoints": [
-    "static/js/main.d910f4b3.js"
+    "static/css/main.d752c9c1.css",
+    "static/js/main.a66a5f26.js"
   ]
 }
